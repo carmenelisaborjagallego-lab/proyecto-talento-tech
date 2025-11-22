@@ -1,0 +1,42 @@
+
+
+# grafico de barras
+
+#importar libreria pandas
+import pandas as pd
+import numpy as np 
+
+
+# url="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsJHJ1G8w5hvJFbJ4KDQ1jfxzzBpxhlsjTJbvb2U-FE8SGed6Zj-MrKD8yIXAMFy1RbgRcKz1kAfqK/pub?gid=0&single=true&output=csv"
+
+# df_web =pd.read_csv(url)
+# df_carga=pd.DataFrame(df_web)
+# print(df_carga)
+
+
+#1.Ejemplo desde diccionario
+
+
+datos = {
+    "nombre":["maria","luis","juan"],
+    "edad":[30,45,22],
+    "ciudad":["bogota","pereira","armenia"]
+    }
+print(datos)
+
+df_datos =pd.DataFrame(datos)
+print(df_datos)
+
+
+
+# grafico de barras
+categoria  = ["java", "python", "c++","Matlab"]
+valores = [5,7,3,8]
+
+
+
+
+
+
+
+
